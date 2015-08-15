@@ -1,4 +1,4 @@
-# LP3 v0.90 TEST
+# LP3 v0.91.1 TEST
 The *Local Package Processing Program*, once known as the [CKAN](https://github.com/ckan/ckan) [Local Package Installing Plug-in](https://github.com/Gustavo6046/CKAN_LPIP), is a small program which creates and installs files known as **Local Package Files** (extension **.lpf**). It is acessed by Windows 2000 or newer's command line and has the following syntax:
  *call lp3.cmd -i/-c input output [-d]*
 
