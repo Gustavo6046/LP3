@@ -3,11 +3,11 @@ if /i %1 == -i (echo Installing LPF package %2 to %3.) else (if /i %1 == -c (ech
 echo --
 if /i %1 == -i (unzip.exe %2 %3) else (zip.exe -j -r %3.lpf %2)
 echo --
-echo Done.
+echo Operation successfully ended.
 exit /b
 @echo on
 :error
-echo Unspecified attribute. Try again using -i or -c.
+echo Error: Unspecified attribute. Try again using -i or -c.
 set /a errorlevel=%errorlevel% + 1
 exit /b
 @echo on
