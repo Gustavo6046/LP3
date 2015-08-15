@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="LP3, The Local Package Processing Program : Creating and installing .LPF files quickly.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>LP3, The Local Package Processing Program</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Gustavo6046/Local-Package-Processing-Program">View on GitHub</a>
+
+          <h1 id="project_title">LP3, The Local Package Processing Program</h1>
+          <h2 id="project_tagline">Creating and installing .LPF files quickly.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Gustavo6046/Local-Package-Processing-Program/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Gustavo6046/Local-Package-Processing-Program/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>The <em>Local Package Processing Program</em>, once known as the <a href="https://github.com/ckan/ckan">CKAN</a> <a href="https://github.com/Gustavo6046/CKAN_LPIP">Local Package Installing Plug-in</a>, is a small program which creates and installs files known as <strong>Local Package Files</strong> (extension <strong>.lpf</strong>). It is acessed by Windows 2000 or newer's command line and has the following syntax:
+ <em>call lp3.cmd -i/-c input output [-d]</em></p>
+
+<h2>
+<a id="syntax-highlight" class="anchor" href="#syntax-highlight" aria-hidden="true"><span class="octicon octicon-link"></span></a>Syntax highlight</h2>
+
+<p>Here, if the attribute is <em>-i</em>, then it will install (extract) the existing LPF package file in path <em>input</em> inside the folder <em>output</em>. If it instead is <em>-c</em> then it will add every file in folder <em>input</em> to a new LPF file in the path <em>output</em>. If neither are specified as initial attribute or are something else then the program won't run, instead displaying a error message and increasing errorlevel by 1.</p>
+
+<ul>
+<li>If it includes option <em>-d</em>, it will delete the original package which was installed (only if initial attribute is <em>-i</em>, or else it won't do anything).</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">LP3, The Local Package Processing Program maintained by <a href="https://github.com/Gustavo6046">Gustavo6046</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-66387310-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
